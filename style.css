@@ -1,0 +1,1129 @@
+/*   
+Theme Name: English On Rails
+*/
+
+/* -----------------------------------------headerここまで--------------------------------------- */
+
+/* --------------------------------------introductionここから------------------------------------ */
+
+.introduction {
+    position: relative;
+    padding-bottom: 150px;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-repeat:no-repeat;
+    background-image: url(../img/building.jpg);
+    background-position-y: -350pt;
+
+
+}
+
+.introduction h1{
+    color: #F4F4F4;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;    animation-name:fade-in1;
+    animation-name:fade-in1;
+    animation-duration:4s;
+    animation-timing-function: ease-out;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode: forwards;
+  }
+@keyframes fade-in1 {
+    0% {opacity: 0}
+    100% {opacity: 10}
+}
+
+@keyframes fade-in3 {
+    0% {opacity: 0}
+    100% {opacity: 1}
+  }
+.service-name {
+}
+
+.intro-title {
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 250px;
+    right: 50%;
+    font-size: 40px;
+    /* margin-bottom: 100px; */
+    animation-name:fade-in4;
+    animation-duration:2s;
+    animation-timing-function: ease-out;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode: forwards;
+}
+
+ @keyframes fade-in4 {
+    0% {opacity: 0; transform: translate3d(90px,0,0);}
+    100% {opacity: 1; transform: translate3d(0,0,0);}
+  }
+
+/* --------------------------------------featuresここから------------------------------------ */
+
+.features {
+    text-align: center;
+    width: 100%;
+    background-color: #F4F3F2;
+    padding-top: 50px;
+}
+
+.feature-move {
+    animation-name:fade-in3;
+    animation-duration:2s;
+    animation-timing-function: ease-out;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in3 {
+    0% {opacity: 0; transform: translate3d(0,50px,0);}
+    100% {opacity: 1; transform: translate3d(0,0,0);}
+}
+
+.service-name {
+
+}
+
+
+
+/* --------------------------------------costここから------------------------------------ */
+
+.cost {
+    margin: 120px auto;
+}
+
+
+.cost-cost {
+    position: relative;
+    color: #E6E6E6;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.cost-title {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.money-img {
+
+    /* margin-left: auto; */
+    /* margin-right: 50px; */
+}
+
+.cost-block {
+    /* display: grid; */
+    text-align: left;
+    margin: 0px auto;
+    /* grid-template-columns: 50% 50%; */
+}
+
+.cost-des {
+    margin: auto 0px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.feature-cost h4  {
+    margin: auto 0px 30px auto;    
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+/* -----------------------------------serviceここから--------------------------------- */
+
+.service-service {
+    position: relative;
+    color: #E6E6E6;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.service-title {
+    margin-bottom: 50px;
+
+}
+.feature-service h4 {
+    margin: auto 0px 30px auto;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.service-des {
+    margin: auto 0px;
+    text-align: left;
+    line-height: 30px;
+}
+/* -----------------------------------styleここから--------------------------------- */
+
+.style-style {
+    position: relative;
+
+    color: #E6E6E6;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.style-title {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.feature-style h4 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    margin: auto 0px 30px auto;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.style-des {
+    margin: auto 0px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.style {
+    padding-bottom: 80px;
+    margin: 120px auto;
+
+}
+
+.course {
+    padding: 50px 0px;
+}
+
+
+/* -----------------------------------courseここから------------------------------------------- */
+.course-title {
+    margin-bottom: 50px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    z-index: 100;
+    position: relative;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 700; 
+    font-size: 4rem;
+}
+.course {
+    overflow:hidden;
+
+}
+.basic-course {
+    text-align: center;
+}
+
+.basic {
+    position: relative;
+    z-index: 999;
+    margin-top: 100px;
+}
+
+.basic-course span {
+    font-size: 28px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.basic-des {
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+.toeic {
+    margin-top: 100px;
+}
+
+.toeic-course {
+    text-align: center;    
+}
+
+.toeic-des {
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.toeic-course span {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    padding-bottom: 30px;
+    font-size: 28px;
+}
+
+.course-course {
+    position: absolute;
+    color: #F4F4F4;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: 700; 
+    top: 75px;
+    z-index: 9;
+}
+.course {
+    position: relative;
+    margin-top: 150px;
+}
+
+/* -------------------------------------------contentここから------------------------------------------------- */
+.contents {
+    position: relative;
+    margin-top: 100px;
+}
+
+.contents-contents {
+    position: absolute;
+    color: #F4F4F4;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: 700; 
+    top: 30px;
+    z-index: 9;
+}
+
+.contents-title {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: 700; 
+    z-index: 10;
+    position: relative;
+}
+
+.bullet-list-wrap {
+    background: #fff;
+    padding: 1em 2em;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.bullet-list {
+    margin-top: 20px;
+    background-image:
+    linear-gradient(
+      90deg,
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,0) 50%,
+      #ffff 50%,
+      #ffff 50%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,0) 97%,
+      #999 97%,
+      #999 100%
+    );
+  background-size:
+    8px 100%,
+    100% 3.4em;
+  line-height:2;
+}
+
+.bullet-list-wrap ul li {
+    line-height: 55px;
+    font-size: 22px;
+}
+
+
+/* -------------------------------------flowここから-------------------------------------*/
+.flow {
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+    height: 900px;;
+    clear: both;
+    /* opacity: 0.3; */
+}
+.flow .container {
+} 
+
+.flow-title {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    font-weight: 700;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+.flow-row {
+    text-align: center;
+}
+
+.number {
+    position: relative;
+    font-weight: 700;
+    font-size: 80px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    bottom: 40px;
+    right: 30px;
+}
+
+
+.flow-first {
+    background: white;
+    height: 494px;
+    float: left;
+    margin-right: 2%;
+    width: 32%;
+    position: relative;
+    line-height: 30px;
+    padding-top: 0px;
+    text-align: left;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.flow-second {
+    background: white;
+    text-align: left;
+    float: left;
+    height: 494px;
+    width: 32%;
+    margin-right: 2%;
+    line-height: 30px;
+    position: relative;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.flow-third {
+    text-align: left;
+    background: white;
+    line-height: 30px;
+    background-color: white;
+    float: left;
+    height: 494px;
+    width: 32%;
+    position: relative;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+/* ----------------------------------------course-priceここから------------------------------------------- */
+
+.price-wrapper {
+    text-align: center;
+    margin: 0px auto 230px auto;
+    height: 600px;
+    
+    /* width: 1200px; */
+}
+
+.price-course-wrapper {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.price-course-title {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+.price-course {
+    float: left;
+    width: 46%;
+    height: 480px;
+    margin-right: 4%;
+    background: #F5FFFA;
+    box-shadow: 0 0 8px gray;
+}
+
+.price-course p {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.price-course dt {
+    height: 30px;
+    padding-top: 16px;
+    font-size: 20px;
+    padding-bottom: 45px;
+    color: white;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+.price-course dd {
+    height: 100px;
+    padding-top: 25px;
+    /* background: red; */
+    padding-right: 20px;
+    /* margin-bottom: 60px; */
+    padding-left: 20px;
+    font-size: 50px;
+    /* font-weight: 700; */
+}
+
+.price-course p::before {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    right: 15px;
+    color: #3CB371;
+	font-weight: 900;
+}
+
+.price-course span {
+    color: gray;
+}
+
+.price-course .yen {
+    font-size: 20px;
+    padding-left: 5px;
+    color: black;
+}
+
+.price-course-title {
+text-align: center;
+}
+
+/* -----------------------------------------------よくある質問ここから------------------------------------------------ */
+.inquiry {
+    clear: both;
+    padding-bottom: 120px;
+    padding-top: 60px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(242,235,243,1) 0%, rgba(234,241,249,1) 90.1% );
+    
+}
+
+.inquiry-title {
+    padding-bottom: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+.inquiry-title span {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.question {
+    background: #b8defd;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.answer {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background: #ffe5e5;
+    position: relative;
+}
+
+.last-answer {
+    margin-bottom: 0px !important;
+}
+
+
+/* .answer::before {
+    background: red;
+    height: 100%;
+    position: absolute;
+    content: 'A.';
+    bottom: 0px;
+    left: 0px;
+    padding-right: 40px;
+} */
+
+.apply {
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.first-name {
+    border:0;
+    padding:15px;
+    font-size:1.3em;
+    font-family:Arial, sans-serif;
+    /* border:solid 1px #ccc; */
+    margin:0 0 20px;
+    width:237px;
+    -webkit-border-radius: 3px;
+    margin-left: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    background: #f5f5f5;
+}
+.last-name {
+    border:0;
+    padding:15px;
+    font-size:1.3em;
+    font-family:Arial, sans-serif;
+    /* border:solid 1px #ccc; */
+    margin:0 0 20px;
+    width:237px;
+    -webkit-border-radius: 3px;
+    margin-right: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    background: #f5f5f5;
+}
+
+
+.mail{
+    border:0;
+    padding:15px;
+    font-size:1.3em;
+    font-family:Arial, sans-serif;
+    /* border:solid 1px #ccc; */
+    margin:0 0 20px;
+    width:480px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    background: #f5f5f5;
+}
+
+.apply-message {
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+.apply-title h4 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.apply-message ul {
+    text-align: left;
+    list-style: none;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apply-message li {
+}
+
+.apply-message li::before {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    right: 15px;
+    color: #3CB371;
+	font-weight: 900;
+}
+
+.comment {
+    border:0;
+    padding:15px;
+    font-size:1.3em;
+    font-family:Arial, sans-serif;
+    /* border:solid 1px #ccc; */
+    margin:0 0 20px;
+    width:480px;
+    height: 200px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    background: #f5f5f5;
+}
+textarea[type="text"] {
+    border: 0;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.5);
+}
+textarea[type="text"]:focus {
+    box-shadow: 0 0 3px 0 rgba(255,153,0,1);
+    outline: 0;
+}
+
+input[type="text"] {
+    border: 0;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.5);
+}
+input[type="text"]:focus {
+    box-shadow: 0 0 3px 0 rgba(255,153,0,1);
+    outline: 0;
+}
+
+.apply-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.apply-title h4 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.stripe{
+  font-weight: bold;
+  letter-spacing: .2em;
+  display: block;
+  margin-right: auto;
+	margin-left: auto;
+  z-index: 1;
+  padding: 16px 20px;
+  width: 300px;
+  height: 80px;
+  font-size: 18px;
+  overflow: hidden;
+  background: rgb(245, 98, 0);
+  color: #ffffff;
+  position: relative;
+}
+.stripe::before{
+  z-index: -1;
+  content: '';
+  width: calc(200% + 40px);
+  position: absolute;
+  left: calc(-100% - 40px);
+  height: 100%;
+  display: block;
+  top: 0;
+  background: linear-gradient(135deg, rgba(242,144,46,1) 55%,rgb(245, 98, 0) 55%);
+  transition: .3s;
+}
+.stripe:hover::after{
+  z-index: 1;
+  content: '';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(135deg, rgba(242,144,46,0) 50%,rgb(245, 98, 0) 50%);
+}
+.stripe:hover::before{
+  left: 0;
+}
+
+.stripe:hover {
+    cursor: pointer;
+    cursor: hand;
+}
+
+/* ----------------------------------------media queryここから--------------------------------------------- */
+
+/* @media screen and (min-width:480px) {  */
+@media screen and (max-width:767px) {
+.pc {
+    display: none;
+}
+.intro-title {
+    left: 15px;
+    margin-top: 30px;
+    font-size: 2rem;
+    width: 90%;
+}
+
+.feature-cost h4 {
+
+}
+
+.introduction {
+    background-position-y: -410pt;
+    background-position-x: -900pt;
+    padding-bottom: 190px;
+}
+.feature-title {
+    margin-bottom: 40px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    /* display: flex; 
+    /* display flexは子要素を並列表示にする */
+    /* -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center; */
+    /* align-items: center; */
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    /* color: #E6E6E6; */
+    font-size: 3rem;
+    font-weight: 700;
+    margin-right: auto;
+    margin-left: auto;
+}
+.introduction h1 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: right;
+    margin: 0;
+    line-height: 30px;
+    padding-top: 52px;
+    letter-spacing: -5px;
+    margin-right: 20px;
+    /* position: absolute; */
+}
+
+.style-des {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cost-des {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.service-des {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.course {
+    margin-top: 0px;
+}
+.course-course {
+    display: none;
+}
+.course-title {
+    font-size: 3rem;
+    margin-left: 20px;
+}
+.basic {
+    margin-top: 30px;
+}
+.toeic {
+    margin-top: 50px;
+}
+.basic-des {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.toeic-des {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contents {
+    margin-top: 60px;
+}
+
+.style {
+    margin-bottom: 50px;
+}
+
+.cost-title {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.service-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.style-title {
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.contents-contents {
+    display: none;
+}
+.contents-title {
+    margin-left: 0px;
+    font-size: 3rem;
+}
+.service-service {
+    font-size: 3rem;
+}
+.cost-cost {
+    font-size: 3rem;
+}
+.style-style {
+    font-size: 3rem;
+}
+
+.flow-container {
+    padding-bottom: 50px;
+}
+.flow {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+    .flow-first {
+        width: 90%;
+        height: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    .flow-second {
+        height: 100%;
+        width: 90%;       
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-top: 70px;
+        padding-bottom: 30px;
+    }
+    .flow-third {
+        height: 100%;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        margin-right: auto;
+        margin-top: 70px;
+        margin-left: auto;
+        width: 90%;
+    }
+
+    .cost {
+        margin-top: 60px;
+    }
+    .price-wrapper {
+        margin-bottom: 0px;
+    }
+
+    .price-course {
+        width: 90%;
+        margin: 0px auto 50px auto;
+    }
+
+    .price-course p {
+        margin-left: 40px;
+    }
+
+    .price-course-wrapper {
+        width: 90%;
+        margin-right: 0%;
+    }
+
+    .price-course dt {
+        font-size: 1rem;
+    }
+    .clearfix:after {
+        content: " ";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    .clearfix {
+        display: inline-table;
+    }
+
+    .inquiry {
+        margin-top: 50px;
+    }
+
+    .inquiry-title {
+        padding-bottom: 30px;
+    }
+    .apply-title h4 {
+        font-size: 1.5rem;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .apply-message ul {
+        width: 300px;
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    input[type="text"] {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .mail {
+        width: 300px;
+    }
+    .comment {
+        width: 300px;
+        height: 250px;
+    }
+}
+@media screen and (min-width:768px) and ( max-width:1024px) {
+.phone {
+    display: none;
+}
+.introduction {
+    background-position-y: -300pt;
+    background-position-x: -900pt;
+    padding-bottom: 160px;
+}
+.feature-title {
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    /* display: flex; 
+    /* display flexは子要素を並列表示にする */
+    /* -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center; */
+    /* align-items: center; */
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    /* color: #E6E6E6; */
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.flow {
+    height: 2000px;
+}
+
+.flow-title {
+    padding-bottom: 140px;
+}
+
+.flow-row {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flow-first {
+    width: 100%;
+    margin-bottom: 150px;
+    padding-bottom: 30px;
+    height: 100%;
+}
+
+.flow-second {
+    margin-bottom: 150px;
+    padding-bottom: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.flow-third {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.introduction h1 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 85px;
+    font-weight: 700;
+    text-align: right;
+    margin: 0;
+    line-height: 100px;
+    padding-top: 52px;
+    letter-spacing: -5px;
+    margin-right: 40px;
+    /* position: absolute; */
+}
+.flow {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.price-course-wrapper {
+    width: 100%;
+}
+
+.left {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.right {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.apply-title h4 {
+    font-size: 1.6rem;
+}
+
+}
+
+@media screen and (min-width:1024px) {
+    .phone {
+        display: none;
+    }
+    .flow {
+        background-image: url(../img/header.jpg);
+        background-position-y: 1500pt;
+    }
+    .feature-title {
+        margin-bottom: 40px;
+        font-size: 28px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        /* display: flex; 
+        /* display flexは子要素を並列表示にする */
+        /* -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center; */
+        /* align-items: center; */
+        font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+        /* color: #E6E6E6; */
+        font-size: 115px;
+        font-weight: 700;
+    }
+    .introduction h1 {
+        font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+        font-size: 115px;
+        font-weight: 700;
+        text-align: right;
+        margin: 0;
+        line-height: 100px;
+        padding-top: 52px;
+        letter-spacing: -5px;
+        margin-right: 8%;
+        /* position: absolute; */
+    }
+.feature-cost h4 {
+    margin-left: 50px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
